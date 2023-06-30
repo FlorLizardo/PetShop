@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poche Pulci Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/myStyle.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <img src="CSS/img-logo/Poche-Pulci-Black.png" alt="logo" id="imagine-logo">
+            </header>
+                <nav id="nav-bar-carrello">                        
+                        <ul class="menu">
+                            <li>
+                                <button class="list-menu menu-principale"><i class="bi bi-list"></i>Menu</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb-fill"></i>Tutti i prodotti</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb"></i>Cani</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb"></i>Gatti</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb"></i>Pesci</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb"></i>Altri animali</button>
+                            </li>
+                            <li>
+                                <button class="list-menu"><i class="bi bi-hand-index-thumb"></i>Offerte</button>
+                            </li>
+                            <li>
+                                <a href="#informazione" class="list-menu"><i class="bi bi-geo-alt-fill"></i>Vieni a trovarci</a>
+                            </li>                        
+                        </ul>
+
+                    <ul class="menu-carrello">
+                        <li>
+                            <a class="button-carrello list-menu active" href="./carrello.html"><i class="bi bi-cart-fill"></i>Carrello</a>
+                        </li>
+                        <li>
+                            <a class="list-menu" href="./index.html"><i class="bi bi-arrow-left-circle-fill"></i>Continua acquistando</a>
+                        </li>
+                    </ul>
+                 </nav>
+
+                 <footer class="text-footer">
+                    <p><i class="bi bi-c-circle"></i>2023 Florencia Lizardo</p>
+                </footer>
+        </aside>
+
+        <main>
+            <h2 class="titolo-principale">Carrello</h2>
+            <div class="container-carrello">
+                <div class="container-carrello-vuoto">
+                    <h3 class="carrello-vuoto carrello-margin">Prodotti</h3>
+                    <p>Non ci sono prodotti nel carrello</p>
+                    <hr/>
+                    <h3 class="carrello-vuoto">Pagamenti sicuri</h3>
+                    <p>Acquista in totale sicurezza tramite i seguenti metodi di pagamento:</p>
+                    <figure>
+                        <div class="pagamento">
+                            <img class="pagamento-logo" src="CSS/img-pagamento/paypal-logo.png" alt="logo-paypal">
+                        </div>
+                        <div class="pagamento">
+                            <img class="pagamento-logo" src="CSS/img-pagamento/visa-eps-vector-logo.png" alt="logo-visa">
+                        </div>
+                        <div class="pagamento">
+                            <img class="pagamento-logo" src="CSS/img-pagamento/MasterCard_Logo.svg.png" alt="logo-mastercard">
+                        </div>
+                        <div class="pagamento">
+                            <img class="pagamento-logo" src="CSS/img-pagamento/american-express-color.png" alt="logo-american-Express">
+                        </div>
+                        <div class="pagamento">
+                            <img class="pagamento-logo" src="CSS/img-pagamento/postepay-logo.png" alt="logo-postepay">
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="carrello-prodotti disabled">
+                    <div class="carrello-prodotto">
+                        <img class="carrello-prodotto-img" src="CSS/img-gatto/almo-nature-gatto.jpg" alt="almo-nature-gatto">
+                        <div class="carrello-prodotto-titolo">
+                            <small>Nome</small>
+                            <h3>Crochette 1</h3>
+                        </div>
+                        <div class="prodotto-carrello-quantita">
+                            <small>Quantità</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrello-prodotto-prezzo">
+                            <small>Prezzo</small>
+                            <p>20</p>
+                        </div>
+                        <div class="carrello-prodotto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrello-prodotto-eliminare"><i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                    <div class="carrello-prodotto">
+                        <img class="carrello-prodotto-img" src="CSS/img-gatto/almo-nature-gatto.jpg" alt="almo-nature-gatto">
+                        <div class="carrello-prodotto-titolo">
+                            <small>Nome</small>
+                            <h3>Crochette 2</h3>
+                        </div>
+                        <div class="prodotto-carrello-quantita">
+                            <small>Quantità</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrello-prodotto-prezzo">
+                            <small>Prezzo</small>
+                            <p>20</p>
+                        </div>
+                        <div class="carrello-prodotto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1000</p>
+                        </div>
+                        <button class="carrello-prodotto-eliminare"><i class="bi bi-trash-fill"></i></button>
+                    </div>
+                </div>
+
+            <div class="carrello-azioni disabled">
+                <div class="carrello-azioni-sinistra">
+                    <button class="carrello-azioni-svuotare">Svuotare carrello</button>
+                </div>
+                <div class="carrello-azioni-destra">
+                    <div class="carrello-azioni-totale">
+                        <p>Total: </p>
+                        <p id="total">$3000</p>
+                    </div>
+                    <button class="carrello-azioni-comprare">Compra adesso</button>
+                </div>
+            </div>
+
+            <p class="carrello-compra disabled">Grazie per il tuo acquisto!<i class="bi bi-emoji-laughing"></i></p>
+        </div>
+        </main>
+    </div>
+
+<script src="JS/carrello.js"></script>
+</body>
+</html>
