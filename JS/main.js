@@ -15,7 +15,7 @@ const prodotti = [
 
     {
         id: 'crochette-cane-02',
-        titolo: 'Crochette per Cane, Natural Trainer tonno e riso',
+        titolo: 'Crochette per Cane, Natural Trainer',
         imagine: './CSS/img-cane/crochette-cane-natural.jpg',
         categoria: {
             nome: 'Cani',
@@ -26,7 +26,7 @@ const prodotti = [
 
     {
         id: 'crochette-cane-03',
-        titolo: 'Crochette per Cane, Natural Trainer pollo fresco e riso',
+        titolo: 'Crochette per Cane, Natural Trainer',
         imagine: './CSS/img-cane/crochette-cane-natural-trainer.jpg',
         categoria: {
             nome: 'Cani',
@@ -55,7 +55,7 @@ const prodotti = [
             nome: 'Cani',
             id: 'cani'
         },
-        prezzo: 12.30
+        prezzo: 12
     },
 
     {
@@ -66,7 +66,7 @@ const prodotti = [
             nome: 'Cani',
             id: 'cani'
         },
-        prezzo: 11.50
+        prezzo: 11
     },
 
     {
@@ -77,53 +77,53 @@ const prodotti = [
             nome: 'Cani',
             id: 'cani'
         },
-        prezzo: 8.20
+        prezzo: 8
     },
 
     //Gatti
 
     {
         id: 'crochette-gatto-01',
-        titolo: 'Crochette per gatto, Almo Nature pollo e tachino',
+        titolo: 'Crochette per gatto, Almo Nature',
         imagine: './CSS/img-gatto/crochette-almo-nature-gatto.jpg',
         categoria: {
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 21.40
+        prezzo: 21
     },
 
     {
         id: 'umido-gatto-01',
-        titolo: 'Alimento per gatti, Almo Nature sterilised',
+        titolo: 'Alimento per gatti, Almo Nature',
         imagine: './CSS/img-gatto/almo-nature-gatto.jpg',
         categoria: {
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 3.20
+        prezzo: 3
     },
 
     {
         id: 'umido-gatto-02',
-        titolo: 'Alimento per gatti, Almo Nature con tonno',
+        titolo: 'Alimento per gatti, Almo Nature',
         imagine: './CSS/img-gatto/almo-nature-umido-gatto.jpg',
         categoria: {
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 3.10
+        prezzo: 3
     },
 
     {
         id: 'sabbia-gatto-01',
-        titolo: 'Lettiera vegetale agglomerante, GreenCat',
+        titolo: 'Lettiera agglomerante, GreenCat',
         imagine: './CSS/img-gatto/greencat-sabbia-gatti-lettiera-vegenatle-sabbietta.jpg',
         categoria: {
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 15.60
+        prezzo: 15
     },
 
     {
@@ -134,7 +134,7 @@ const prodotti = [
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 19.45
+        prezzo: 19
     },
 
     {
@@ -145,7 +145,7 @@ const prodotti = [
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 8.20
+        prezzo: 8
     },
 
     {
@@ -156,7 +156,7 @@ const prodotti = [
             nome: 'Gatti',
             id: 'gatti'
         },
-        prezzo: 6.30
+        prezzo: 6
     },
 
     //Pesci
@@ -169,7 +169,7 @@ const prodotti = [
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 5.60
+        prezzo: 5
     },
 
     {
@@ -180,29 +180,29 @@ const prodotti = [
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 4.20
+        prezzo: 4
     },
 
     {
         id: 'mangime-pesce-03',
-        titolo: 'Bastoncini galleggianti per pesci da laghetto, AllPet Roxana',
+        titolo: 'Bastoncini galleggianti, AllPet Roxana',
         imagine: './CSS/img-pesce/bastoncini-galleggianti-pesci.jpg',
         categoria: {
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 10.20
+        prezzo: 10
     },
 
     {
         id: 'sabbia-pesce-01',
-        titolo: 'Materiale da fondo per acquario, Ghiaia Bios',
+        titolo: 'Materiale da fondo, Ghiaia Bios',
         imagine: './CSS/img-pesce/sabbia-acquario.jpg',
         categoria: {
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 12.30
+        prezzo: 12
     },
 
     {
@@ -213,7 +213,7 @@ const prodotti = [
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 27.70
+        prezzo: 27
     },
 
     {
@@ -224,7 +224,7 @@ const prodotti = [
             nome: 'Pesci',
             id: 'pesci'
         },
-        prezzo: 31.20
+        prezzo: 31
     },
 
     //Altri
@@ -233,10 +233,10 @@ const prodotti = [
         titolo: 'Alimento per roditori, Manitoba',
         imagine: './CSS/img-altri/alimento-roditori.jpg',
         categoria: {
-            nome: 'Altri',
+            nome: 'Altri animali',
             id: 'altri'
         },
-        prezzo: 6.30
+        prezzo: 6
     },
     
     {
@@ -244,10 +244,10 @@ const prodotti = [
         titolo: 'Alimento per criceti, Versele Laga',
         imagine: './CSS/img-altri/versele-laga-nature-hamster-alimento-per-criceti-700-gr.jpg',
         categoria: {
-            nome: 'Altri',
+            nome: 'Altri animali',
             id: 'altri'
         },
-        prezzo: 7.10
+        prezzo: 7
     },
 
     {
@@ -255,10 +255,10 @@ const prodotti = [
         titolo: 'Crocantini per conigli, Versele Laga',
         imagine: './CSS/img-altri/crocantini-per-conigli-adulti.jpg',
         categoria: {
-            nome: 'Altri',
+            nome: 'Altri animali',
             id: 'altri'
         },
-        prezzo: 6.30
+        prezzo: 6
     },
 
     //Offerte
@@ -266,9 +266,16 @@ const prodotti = [
 ];
 
 const containerProdotti = document.querySelector('#container-products');
+const bottoniCategorie = document.querySelectorAll('.bottom-category');
+const titoloPrincipale = document.querySelector('#titolo-principale');
+let bottoniAggiungere = document.querySelectorAll('.prodotto-aggiungere');
+const numero = document.querySelector('#numero');
 
-function caricareProdotti() {
-    prodotti.forEach(prodotto => {
+function caricareProdotti(prodottiScelti) {
+
+    containerProdotti.innerHTML = '';
+    
+    prodottiScelti.forEach(prodotto => {
         const div = document.createElement('div');
         div.classList.add('prodotto');
         div.innerHTML = `
@@ -281,7 +288,70 @@ function caricareProdotti() {
         `;
 
         containerProdotti.append(div);
-    })
+    });
+    aggiornareBottoniAggiungere();
 }
 
-caricareProdotti();
+caricareProdotti(prodotti);
+
+bottoniCategorie.forEach(bottone => {
+    bottone.addEventListener('click', (e) =>{
+
+        bottoniCategorie.forEach(bottone => bottone.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+
+        if (e.currentTarget.id != 'tutti') {
+            const prodottiCategoria = prodotti.find(prodotto => prodotto.categoria.id === e.currentTarget.id);
+            titoloPrincipale.innerText = prodottiCategoria.categoria.nome;
+
+            const prodottiBottone = prodotti.filter(prodotto => prodotto.categoria.id ===e.currentTarget.id);
+            caricareProdotti(prodottiBottone);
+        } else {
+            titoloPrincipale.innerText = 'Tutti i prodotti';
+            caricareProdotti(prodotti);
+        }
+    })
+});
+
+function aggiornareBottoniAggiungere() {
+    bottoniAggiungere = document.querySelectorAll('.prodotto-aggiungere');
+
+    bottoniAggiungere.forEach(bottone =>
+        bottone.addEventListener('click', aggiungereCarrello));
+}
+
+let prodottiCarrello;
+let prodottiCarrelloLS = localStorage.getItem('prodotti-in-carrello');
+
+
+if (prodottiCarrelloLS) {
+    prodottiCarrello = JSON.parse(prodottiCarrelloLS);
+    aggiornareNumero();
+} else {
+    prodottiCarrello = [];
+}
+
+
+function aggiungereCarrello(e) {
+
+    const idBottone = e.currentTarget.id;
+    const prodottoAggiunto = prodotti.find(prodotto => prodotto.id === idBottone);
+
+    if(prodottiCarrello.some(prodotto => prodotto.id === idBottone)) {
+        const index = prodottiCarrello.findIndex(prodotto => prodotto.id === idBottone);
+        prodottiCarrello[index].quantita++;
+    } else {
+        prodottoAggiunto.quantita = 1;
+        prodottiCarrello.push(prodottoAggiunto);
+    }
+
+    aggiornareNumero();
+
+    localStorage.setItem('prodotti-in-carrello', JSON.stringify(prodottiCarrello));
+}
+
+function aggiornareNumero() {
+    let nuevoNumero = prodottiCarrello.reduce((acc, prodotto) => acc + prodotto.quantita, 0);
+    numero.innerText = nuevoNumero;
+}
+
