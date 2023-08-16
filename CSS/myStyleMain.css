@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+:root {
+   --clr-orange-color: #FC8105 ;
+   --clr-yellow-color: #f7d810;
+   --clr-black-color: #080700;
+   --clr-white-color: #FFFFFF;
+   --clr-gray1-color: #393938;
+   --clr-gray2-color: #E5E5E5;
+   --clr-gray3-color: #F9F9F9;
+   --clr-red-color: #FC0511;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+    margin: 0;
+    padding: o;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+ display: grid;
+ grid-template-columns: 0.8fr 4fr;
+ background-color: var(--clr-orange-color);
+}
+
+aside {
+ padding: 2rem;
+ padding-right: 0;
+ color: var(--clr-white-color);
+ position: sticky;
+ top: 0;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+#imagine-logo {
+ width: 10rem;
+ border-radius: .9rem;
+}
+
+.menu {
+ display: flex;
+ flex-direction: column;
+ gap: .5rem;
+ overflow-y: scroll;
+ height: 40vh;
+}
+
+
+.menu::-webkit-scrollbar {
+ width: 0.5rem;
+}
+
+.menu::-webkit-scrollbar-track {
+ background: transparent;
+}
+
+.menu::-webkit-scrollbar-thumb {
+ background-color: transparent;
+ border-radius: 3rem;
+}
+
+.menu::-webkit-scrollbar-thumb:hover{
+ background-color: var(--clr-gray2-color);
+ border-radius: 3rem;
+}
+
+.list-menu {
+ background-color: transparent;
+ border: 0;
+ color: var(--clr-white-color);
+ font-size: 1rem;
+ cursor: pointer;
+ display: flex;
+ gap: 1rem;
+ font-weight: 400;
+ padding: 1rem;
+ width: 100%;
+}
+
+.list-menu.active {
+ background-color: var(--clr-white-color);
+ color: var(--clr-orange-color);
+ width: 100%;
+ border-radius: .8rem;
+}
+
+.button-carrello {
+ margin-top: 2rem;
+}
+
+.button-carrello.active {
+ background-color: var(--clr-white-color);
+ color: var(--clr-orange-color);
+ width: 100%;
+ border-top-left-radius: 1rem;
+ border-bottom-left-radius: 1rem;
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+}
+
+.bi .bi-hand-index-thumb-fill, 
+.bi .bi-hand-index-thumb
+{
+ transform: rotateZ(90deg);
+}
+
+.numero {
+ background-color: var(--clr-white-color);
+ color: var(--clr-orange-color);
+ padding: .10rem .25rem;
+ border-radius: .25rem;
+}
+
+.text-footer {
+ color: var(--clr-gray1-color);
+ font-size: .85rem;
+}
+
+main {
+ background-color: var(--clr-white-color);
+ 
+ padding: 3rem;
+}
+
+.titolo-principale {
+ color: var(--clr-orange-color);
+ margin-bottom: 2rem;
+ text-transform: uppercase;
+}
+
+.container-products {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1rem;
+}
+
+.prodotto-img {
+ width: 100%;
+ height: 16rem;
+ object-fit: cover;
+ border: .1rem solid var(--clr-yellow-color);
+ 
+}
+
+.prodotto-dettagli {
+ background-color: var(--clr-yellow-color);
+ color: var(--clr-gray1-color);
+ padding: .5rem;
+ 
+ margin-top: -2rem;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ gap: .25rem;
+}
+
+.prodotto-titolo {
+ font-size: 1rem;
+}
+
+.prodotto-aggiungere {
+ border: 0;
+ background-color: var(--clr-white-color);
+ color: var(--clr-orange-color);
+ padding: .4rem;
+ text-transform: uppercase;
+ border-radius: 2rem;
+ cursor: pointer;
+ border: 2px solid var(--clr-white-color);
+ transition: background-color .2s, color .2s;    
+}
+
+.prodotto-aggiungere:hover {
+ background-color: var(--clr-orange-color);
+ color: var(--clr-white-color);
+}
+
+.prodotto-prezzo {
+ font-size: 1.2rem;
+ font-weight: 600;
+}

@@ -1,0 +1,35 @@
+
+:root {
+   --clr-orange-color: #FC8105 ;
+   --clr-yellow-color: #f7d810;
+   --clr-black-color: #080700;
+   --clr-white-color: #FFFFFF;
+   --clr-gray1-color: #393938;
+   --clr-gray2-color: #E5E5E5;
+   --clr-gray3-color: #F9F9F9;
+   --clr-red-color: #FC0511;
+}
+
+#informazione {
+ background-color: var(--clr-gray2-color);
+}
+
+.contatti-titolo {
+ padding-top: 1.5rem;
+ margin-left: 2rem;
+}
+
+.informazione-box {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1rem;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 1rem;
+ font-weight: 600;
+ padding: 1rem;
+}
+
+.icono {
+ padding-right: .5rem;
+}
