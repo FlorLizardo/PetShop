@@ -64,6 +64,7 @@
     background-color: transparent;
     color: var(--clr-red-color);
     cursor: pointer;
+    margin-right: 3rem;
 }
 
 .carrello-azioni{
@@ -140,16 +141,62 @@
 
 .pagamento {
     float: left;
-    width: 10%;
 }
 
+.container-pagamento {
+    justify-content: space-between;
+}
 .pagamento-logo {
+    margin-right: 2rem;
     max-width: 3rem;
     border: transparent;
+    border: transparent;
+    gap: .5rem;
+   
+    border: transparent;   
     gap: .5rem;
    
 }
 
 .disabled {
     display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .container-carrello {
+        min-height: 70vh;
+    }
+   .container-carrello-vuoto{
+    min-width: 80vw;
+    min-height: 75vh;
+   }
+   .container-pagamento {
+    padding: 2rem;
+   }
+   .pagamento-logo {
+    width: 3rem;
+   }
+   .container-carrello-vuoto h3, p, hr, figure {
+    margin: .5rem;
+   }
+   .carrello-azioni{
+    flex-wrap: wrap;
+    row-gap: 1rem;
+   }
+   .carrello-prodotto {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    padding-left: 3rem;
+    gap: 1rem;
+   }
+   .carrello-prodotto-eliminare {
+    position: absolute;
+    left: 75vw;
+    font-size: 1.3rem;
+   }
+   .carrello-prodotto-img {
+    margin-left: 0;
+   }
+   
 }

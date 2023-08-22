@@ -43,7 +43,7 @@ function caricareProdotti() {
                     <small class="small">Subtotal</small>
                     <p>$${prodotto.prezzo * prodotto.quantita}</p>
                 </div>
-                <button class="carrello-prodotto-eliminare" id='${prodotto.id}'><i class="bi bi-trash-fill"></i></button>
+                <button class="carrello-prodotto-eliminare" id='${prodotto.id}'><i class="bi-trash-fill"></i></button>
             `;
     
             containerProdotti.append(div);
