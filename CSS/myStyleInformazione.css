@@ -33,3 +33,11 @@
 .icono {
  padding-right: .5rem;
 }
+
+@media screen and (max-width: 600px) {
+   .informazione-box {
+      display: grid;
+      flex-direction: row;
+      grid-template-columns: 1fr;
+   }
+}

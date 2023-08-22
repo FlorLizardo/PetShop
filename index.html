@@ -13,7 +13,16 @@
 
 <body>
     <div class="wrapper wrapper-principale">
-        <aside>
+        <header class="header-mobile">
+            <img src="CSS/img-logo/Poche-Pulci-Black.png" alt="logo" id="imagine-logo">
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside >
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
             <header>
                 <img src="CSS/img-logo/Poche-Pulci-Black.png" alt="logo" id="imagine-logo">
             </header>
@@ -36,16 +45,13 @@
                             <button id="altri" class="list-menu bottom-category"><i class="bi bi-hand-index-thumb"></i>Altri animali</button>
                         </li>
                         <li>
-                            <button id="offerte" class="list-menu bottom-category"><i class="bi bi-hand-index-thumb"></i>Offerte</button>
-                        </li>
-                        <li>
-                            <a href="#informazione" class="list-menu bottom-category"><i class="bi bi-geo-alt-fill"></i>Vieni a trovarci</a>
+                            <a href="#informazione" class="list-menu bottom-category"><i class="bi-geo-alt-fill"></i>Vieni a trovarci</a>
                         </li>                        
                     </ul>
 
                     <ul>
                         <li>
-                            <a class="button-carrello list-menu" href="./carrello.html"><i class="bi bi-cart-fill"></i>Carrello <span id="numero" class="numero">0</span></a>
+                            <a class="button-carrello list-menu" href="./carrello.html"><i class="bi-cart-fill"></i>Carrello <span id="numero" class="numero">0</span></a>
                         </li>
                     </ul>
             </nav>
@@ -84,5 +90,6 @@
     </div>
 
     <script src="JS/main.js"></script>
+    <script src="JS/menu.js"></script>
 </body>
 </html>
